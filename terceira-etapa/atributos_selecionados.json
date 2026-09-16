@@ -1,0 +1,24 @@
+{
+    "atributos_selecionados": [
+        "Bin_05",
+        "Bin_07",
+        "Bin_08",
+        "Bin_09",
+        "Bin_10",
+        "Bin_11",
+        "Bin_12"
+    ],
+    "atributos_descartados": [
+        "Bin_01",
+        "Bin_02",
+        "Bin_03",
+        "Bin_04",
+        "Bin_06",
+        "Bin_13",
+        "Bin_14",
+        "Bin_15",
+        "Bin_16"
+    ],
+    "total_atributos_originais": 16,
+    "total_atributos_selecionados": 7
+}

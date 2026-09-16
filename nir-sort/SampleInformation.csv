@@ -1,0 +1,65 @@
+﻿Sample ID,Source Class,Source Number,Fiber 1,Fiber 1 %,Fiber 2,Fiber 2 %,Fiber 3,Fiber 3 %,Batch,Form Factor,Dye Type,Dye Color,Visual Inspected Color,Finish,Catalogue ID,Lot Number
+A01_a100x000x000_00_00_,AISE,1,Cotton,100,x,0,x,0,0,woven,Sulphur,Black,Black,untreated,CFT AISE 1,E-460-01
+A02_a100x000x000_00_00_,AISE,2,Cotton,100,x,0,x,0,0,woven,Sulphur,Black,Black,DHDMEU Resin,CFT AISE 2,106
+A03_a100x000x000_00_00_,AISE,3,Cotton,100,x,0,x,0,0,woven,Vat,Green,Green,unknown,CFT AISE 3,20-5-005A
+A04_a100x000x000_00_00_,AISE,4,Cotton,100,x,0,x,0,0,woven,Vat,Brown,Brown,unknown,CFT AISE 4,E-460-01
+A05_a100x000x000_00_00_,AISE,5,Cotton,100,x,0,x,0,0,woven,Vat,Blue,Blue,unknown,CFT AISE 5,E-460-01
+A07_a100x000x000_00_00_,AISE,7,Cotton,100,x,0,x,0,0,woven,Azoic,Orange,Red Orange,unknown,CFT AISE 7,103
+A08_a100x000x000_00_00_,AISE,8,Cotton,100,x,0,x,0,0,woven,Direct,Yellow,Yellow,CR Resin (cationic Tinofix ECO),CFT AISE 8,008 O
+A09_a100x000x000_00_00_,AISE,9,Cotton,100,x,0,x,0,0,woven,Direct,Yellow,Yellow,DHDMEU Resin,CFT AISE 9,103
+A10_a100x000x000_00_00_,AISE,10,Cotton,100,x,0,x,0,0,woven,Direct,Black,Black,untreated,CFT AISE 10,105
+A11_a100x000x000_00_00_,AISE,11,Cotton,100,x,0,x,0,0,woven,Direct,Black,Black,CAT agent,CFT AISE 11,105a
+A12_a100x000x000_00_00_,AISE,12,Cotton,100,x,0,x,0,0,woven,Direct,Black,Black,DHDMEU Resin,CFT AISE 12,E-460-01
+A13_a100x000x000_00_00_,AISE,13,Cotton,100,x,0,x,0,0,woven,Direct,Rubine,Red Pink,untreated,CFT AISE 13,105 B
+A14_a100x000x000_00_00_,AISE,14,Cotton,100,x,0,x,0,0,woven,Direct,Rubine,Red Pink,Reactive Fix,CFT AISE 14,103
+A15_a100x000x000_00_00_,AISE,15,Cotton,100,x,0,x,0,0,woven,Direct,Rubine,Red Pink,DHDMEU Resin,CFT AISE 15,E-460-01
+A16_a100x000x000_00_00_,AISE,16,Cotton,100,x,0,x,0,0,woven,Reactive,Red,Pink,unknown,CFT AISE 16,10/19/2003
+A17_a100x000x000_00_00_,AISE,17,Cotton,100,x,0,x,0,0,woven,Reactive,Red B,Pink,unknown,CFT AISE 17,3-19-1A
+A18_a100x000x000_00_00_,AISE,18,Cotton,100,x,0,x,0,0,woven,Reactive,Red C,Pink,unknown,CFT AISE 18,10/19/2004
+A19_a100x000x000_00_00_,AISE,19,Cotton,100,x,0,x,0,0,woven,Reactive,Red D,Pink,unknown,CFT AISE 19,104a1
+A20_a100x000x000_00_00_,AISE,20,Cotton,100,x,0,x,0,0,woven,Reactive,Black,Light Blue,unknown,CFT AISE 20,2/19/2002
+A21_a100x000x000_00_00_,AISE,21,Cotton,100,x,0,x,0,0,woven,Reactive,Black,Black,unknown,CFT AISE 21,19-03
+A22_a100x000x000_00_00_,AISE,22,Cotton,100,x,0,x,0,0,woven,Reactive,Orange,Orange,unknown,CFT AISE 22,4/18/2001
+A23_a100x000x000_00_00_,AISE,23,Cotton,100,x,0,x,0,0,woven,Reactive,Green,Blue Green,unknown,CFT AISE 23,104 O
+A24_a100x000x000_00_00_,AISE,24,Cotton,100,x,0,x,0,0,woven,Reactive,Blue,Blue,unknown,CFT AISE 24,E-460-01
+A25_a100x000x000_00_00_,AISE,25,Cotton,100,x,0,x,0,0,woven,Reactive,Blue,Blue,unknown,CFT AISE 25,3/21/2005
+A26_a100x000x000_00_00_,AISE,26,Cotton,100,x,0,x,0,0,woven,Reactive,Violet,Purple,unknown,CFT AISE 26,E-460-01
+A27_a100x000x000_00_00_,AISE,27,Cotton,100,x,0,x,0,0,woven,Priocion H-EXL trichromat,Brown,Green Brown,unknown,CFT AISE 27,20M001
+A28_a100x000x000_00_00_,AISE,28,Cotton,100,x,0,x,0,0,woven,Trichromatic Reactive combination,Brown,Brown,oxi-bleach,CFT AISE 28,E-460-01
+A29_a100x000x000_00_00_,AISE,29,Cotton,100,x,0,x,0,0,woven,Reactive,Orange 107/Red 198/Black 5,Green Brown,unknown,CFT AISE 29,007 R
+A30_b100x000x000_00_00_,AISE,30,Polyester,100,x,0,x,0,0,woven,Disperse (Anthraquinone),Red,Red,unknown,CFT AISE 30,103B
+A31_b100x000x000_00_00_,AISE,31,Polyester,100,x,0,x,0,0,woven,Disperse (Azo),Navy,Dark Blue,unknown,CFT AISE 31,103D
+A32_b100x000x000_00_00_,AISE,32,Polyester,100,x,0,x,0,0,woven,Disperse (Benzodifuranone),Red,Red,unknown,CFT AISE 32,104 A
+A33_b100x000x000_00_00_,AISE,33,Polyester,100,x,0,x,0,0,woven,Disperse,Blue,Blue,Heat Set,CFT AISE 33,2/19/2001
+A35_d100x000x000_00_00_,AISE,35,Polyacrylic,100,x,0,x,0,0,woven,Trichromatic combination,Brown,Light Brown,unknown,CFT AISE 35,501
+A36_c100x000x000_00_00_,AISE,36,Nylon,100,x,0,x,0,0,woven,Acid (trichromatic),Brown,Brown,unknown,CFT AISE 36,104A
+A37_c100x000x000_00_00_,AISE,37,Nylon,100,x,0,x,0,0,woven,Acid ,Red,Red,Syntan,CFT AISE 37,104A
+A38_c100x000x000_00_00_,AISE,38,Nylon,100,x,0,x,0,0,woven,2:1 Chromium Complex,Red,Red,untreated,CFT AISE 38,104
+A39_c100x000x000_00_01_,AISE,39,Nylon,100,x,0,x,0,0,knit,Acid,Red,Red,Syntan,CFT AISE 39,460
+A40_c100x000x000_00_00_,AISE,40,Nylon,100,x,0,x,0,0,woven,2:1 Chromium Complex,Black,Black,untreated,CFT AISE 40,103C
+A41_c100x000x000_00_00_,AISE,41,Nylon,100,x,0,x,0,0,woven,2:1 Chromium Complex,Black,Black,Syntan,CFT AISE 41,103
+B01_a092e008x000_00_01_,blend,1,Cotton,92,Spandex,8,x,0,0,knit,none,none,White,unknown,4301,8787
+B02_b088e012x000_00_01_,blend,2,Polyester,88,Spandex,12,x,0,0,knit,none,none,White,unknown,700-9450,2521
+B03_c081e019x000_00_01_,blend,3,Nylon,81,Spandex,19,x,0,0,knit,none,none,White,unknown,340,3005
+B04_a050b050x000_00_01_,blend,4,Polyester,50,Cotton,50,x,0,0,knit,none,none,White,bleach with optical brightener,7439OB,2674
+B05_b065a035x000_00_00_,blend,5,Polyester,65,Cotton,35,x,0,0,woven,none,none,White,bleach with optical brightener,7409OPT,10000
+B06_a050b050x000_00_00_,blend,6,Polyester,50,Cotton,50,x,0,0,woven,none,none,White,unknown,7465,3142
+B07_b065a035x000_00_00_,blend,7,Polyester,65,Cotton,35,x,0,0,woven,none,none,White,bleach without optical brightener,7409-WOB,2696
+B08_a050b050x000_00_01_,blend,8,Polyester,50,Cotton,50,x,0,0,knit,none,none,White,unknown,7422,2675
+B09_b100x000x000_00_00_,blend,9,Polyester,100,x,0,x,0,0,woven,none,none,White,with optical brightener,700-480,1901
+B10_b100x000x000_00_00_,blend,10,Polyester,100,x,0,x,0,0,woven,none,none,White,without optical brightener,700-1558,10810
+B11_a100x000x000_00_00_,blend,11,Cotton,100,x,0,x,0,0,woven,none,none,Light Brown,unknown,400R,2810
+B12_a100x000x000_00_00_,blend,12,Cotton,100,x,0,x,0,0,woven,none,none,White,bleached,400,3245
+B13_b100x000x000_00_00_,blend,13,Polyester,100,x,0,x,0,0,woven,none,none,White,unknown,700-6170,
+B14_a100x000x000_00_00_,blend,14,Cotton,100,x,0,x,0,0,woven,none,none,White,bleached,429W,3025
+C01_a060f040x000_00_01_,real world,1,Cotton,60,Recycled Polyester,40,x,0,0,knit,unknown,unknown,Red,unknown,unknown,unknown
+C02_x000x000x000_00_01_,real world,2,unknown,0,x,0,x,0,0,knit,unknown,unknown,Red Pink,unknown,unknown,unknown
+C03_a100x000x000_00_01_,real world,3,Cotton,100,x,0,x,0,0,knit,unknown,unknown,Orange,unknown,unknown,unknown
+C04_a100x000x000_00_01_,real world,4,Cotton,100,x,0,x,0,0,knit,unknown,unknown,Yellow,unknown,unknown,unknown
+C05_b053a035g012_00_01_,real world,5,Polyester,53,Cotton,35,Rayon,12,0,knit,unknown,unknown,Green,unknown,unknown,unknown
+C06_a060b040x000_00_01_,real world,6,Cotton,60,Polyester,40,x,0,0,knit,unknown,unknown,Green Blue,unknown,unknown,unknown
+C07_f100x000x000_00_01_,real world,7,Recycled Polyester,100,x,0,x,0,0,knit,unknown,unknown,Blue,unknown,unknown,unknown
+C08_a100x000x000_00_01_,real world,8,Cotton,100,x,0,x,0,0,knit,unknown,unknown,Dark Blue,unknown,unknown,unknown
+C09_a100x000x000_00_01_,real world,9,Cotton,100,x,0,x,0,0,knit,unknown,unknown,Black,unknown,unknown,unknown
+C10_b100x000x000_00_01_,real world,10,Polyester,100,x,0,x,0,0,knit,unknown,unknown,Black,unknown,unknown,unknown
+C11_a052b048x000_00_01_,real world,11,Cotton,52,Polyester,48,x,0,0,knit,unknown,unknown,Grey,unknown,unknown,unknown

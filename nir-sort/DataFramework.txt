@@ -1,0 +1,173 @@
+==============================================================================
+<<<<>><<>><<>><<>><<>><<>>| Data Framework Summary |<<>><<>><<>><<>><<>><<>>>>
+==============================================================================
+
+ Near Infrared Spectra of Origin-defined and Real-world Textiles (NIR-SORT):
+   A spectroscopic and materials characterization dataset for known 
+   provenance and post-consumer fabrics
+
+
+<<<<>><<>><<>>| Dataset Structure Outline (with example names) |<<>><<>><<>>>>
+
+.
+└NIR-Sort/
+ ├─ Microscopy/
+ │  ├─ Optical/
+ │  │  ├─ Stereo/
+ │  │  │  ├─ Mono
+ │  │  │  |  ├─ Source_/
+ │  │  │  │  |  ├─ [example]C11_a052b048x000_00_01_T_04M.bmp
+ │  │  │  ├─ Color
+ │  │  │  |  ├─ Source_/
+ │  │  │  |  ├─ ColorParameters.csv
+ │  │  │  ├─ Polarized
+ │  │  │  |  ├─ Source_/
+ │  │  │  ├─ README_stereo.txt
+ ├─ Spectroscopy/
+ │  ├─ NearInfrared/
+ │  │  ├─ Benchtop_N/
+ │  │  │  ├─ EstimatedUncertainties_N.xlsx
+ │  │  │  ├─ TestConditions_N.csv
+ │  │  │  ├─ Absorbance/
+ │  │  │  │  ├─ Source_/
+ │  │  │  │  │  ├─ [example]A01_a100x000x000_00_00_S_01A.csv
+ │  │  │  ├─ Reflectance/
+ │  │  │  │  ├─ Source_/
+ │  │  │  │  │  ├─ [example]A01_a100x000x000_00_00_S_01R.csv
+ │  │  ├─ Handheld_F/
+ │  │  │  ├─ EstimatedUncertainties_F.xlsx
+ │  │  │  ├─ TestConditions_F.csv
+ │  │  │  ├─ Absorbance/
+ │  │  │  │  ├─ Source_/
+ │  │  │  ├─ Reflectance/
+ │  │  │  │  ├─ Source_/
+ │  │  ├─ Handheld_S/
+ │  │  │  ├─ EstimatedUncertainties_S.xlsx
+ │  │  │  ├─ TestConditions_S.csv
+ │  │  │  ├─ Absorbance/
+ │  │  │  │  ├─ Source_/
+ │  │  │  ├─ Reflectance/
+ │  │  │  │  ├─ Source_/
+ │  │  ├─ README_nearinfrared.txt
+ ├─ UtilityScripts/
+ │  ├─ data_collection_from_folders.sh
+ │  ├─ data_collection_from_folders.py
+ │  ├─ example_basic_data_visulaization.py
+ │  ├─ example_benchtop_to_handheld_comparison.py
+ │  ├─ example_metadata_comparison.py
+ │  ├─ NIR_SORT_py_functions.py 
+ ├─ ChangeLog.txt
+ ├─ DataDictionary.csv
+ ├─ DataFramework.txt
+ ├─ FileNamingConvention.pdf
+ ├─ license.txt
+ ├─ README_main.txt
+ ├─ RelationalDiagram.pdf
+ ├─ SampleInformation.csv
+
+         
+<<<>><<>><<>><<>><<>><<>><<>>| Naming Convention |<<>><<>><<>><<>><<>><<>><<>>
+
+Top-level folders should be descriptively named with a material or test type.
+
+Within each test, the naming structure uses a combination of letter and 
+numbers in groups of characters, as defined below, to describe a file.
+
+                           Example: "A01_a100x000x000_00_00_N_01R.csv"
+                                       |   |          |   | |  |
+                               source —┘   |          |   | |  |
+                            fiber content —┘          |   | |  | 
+                                    batch/lot number —┘   | |  |
+                                             form factor —┘ |  |
+                                                instrument —┘  |
+                                      replicate + data format —┘
+
+where
+    source = A for known provenance dyed samples 
+                     {(AISE) color maintenance standard fabrics and custom 
+                     dyed fabrics purchased from Testfabrics, inc. 
+                     (West Pittston, PA)}
+             B for known provenance undyed samples 
+                     {fabric blends and custom fabrics purchased from 
+                     Testfabrics, inc. (West Pittston, PA)}
+             C for unknown provenance post-consumer samples 
+                     {garments purchased from local secondhand store}
+	     D for unknown provenance pre-consumer samples 
+                     {production samples}
+
+    sample content = a for cotton  
+                     b for polyester (recycled polyester, PET)
+                     c for synthetic polyamides (Nylon 6, Nylon 6,6)
+                     d for acrylic
+                     e for spandex
+		     f for other polyurethanes [not currently used]
+                     g for regenerated cellulosics (rayon, lyocell)
+		     h for other natural cellulosics (hemp, flax) 
+		     i for natural polyamides (wool, silk)
+                     x for empty sets (N/A)
+                   + 3 characters (000-100) for each fiber type's nominal 
+                     blend percentage 
+
+    batch/lot number = 2 characters (00-99), indicative of parent material 
+                       source from which children (specimen) were derived
+    form factor = 00 for woven
+                  01 for knit
+		  02 for nonwoven [not currently used]
+	          03 for yarn [not currently used]
+		  04 for fibers (shredded)
+		  05 for fasteners (snaps, buttons, buckles, zippers) 
+                         [not currently used]
+
+    instrument = F for handheld NIR spectrometer (FabriTell)
+                 G for time gated Raman spectrometer [not currently used]
+                 N for benchtop NIR spectrometer (Nicolet)
+    		 P for handheld Raman spectrometer [not currently used]
+                 Q for standoff distance with Benchtop_N
+                 S for handheld NIR spectrometer (Sortile)
+                 T for stereo optical microscope
+                 X for generic, placeholder
+
+    replicate + data format = 2 characters (00-99), replicates of measurements 
+                              on the same specimen 
+                            + A for absorbance
+                              C for color
+                              M for mono
+                              P for polarized
+                              R for reflectance
+                              S for scattering [not currently used]
+                              T for transmittance [not currently used]
+                              
+                               
+File naming convention augmentation for standoff distance
+     Distance is encoded with replicate number: _XYZ
+     where X = distance, Y = replicate, and Z = absorbance or reflectance
+         3 = 0.5 cm
+         4 = 1 cm
+         5 = 2 cm
+         6 = 3 cm
+         7 = 4 cm
+         8 = 8 cm
+
+     Note: There is no 'zero distance' file for instrument Q. This is 
+     equivalent to the file with the same sample ID under instrument N. 
+
+
+<<<>><<>><<>><<>><<>>| Supporting Code: Utility Scripts |<<>><<>><<>><<>><<>>>
+
+Analysis: typically includes basic analysis scripts and function to read in, 
+          organize, and plot spectra, with additional functionality added as 
+          needed.
+
+
+<<>><<>><<>><<>><<>><<>><<>><<>>| Disclaimer |<<>><<>><<>><<>><<>><<>><<>><<>>
+
+Certain commercial equipment, instruments, or materials are identified in this 
+dataset in order to specify the experimental procedure adequately.  Such 
+identification is not intended to imply recommendation or endorsement by NIST, 
+nor is it intended to imply that the materials or equipment identified are 
+necessarily the best available for the purpose.
+
+This file was prepared by Katarina E Goodge on July 17, 2023 and updated to 
+version 2.0.0 by Katarina E Goodge on January 16, 2026. 
+
+==============================================================================
