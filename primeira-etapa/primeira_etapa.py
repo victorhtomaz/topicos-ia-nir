@@ -1,10 +1,14 @@
 from pathlib import Path
+import sys
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.preprocessing import MinMaxScaler
 
-DIRETORIO_RAIZ = Path(__file__).resolve().parent.parent
+if getattr(sys, 'frozen', False):
+    DIRETORIO_RAIZ = Path(sys.executable).resolve().parent
+else:
+    DIRETORIO_RAIZ = Path(__file__).resolve().parent.parent
 
 PASTA_DATA = DIRETORIO_RAIZ / "data"
 PASTA_ETAPA1 = DIRETORIO_RAIZ / "reports" / "etapa_1"

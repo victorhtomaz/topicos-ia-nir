@@ -1,6 +1,7 @@
 import argparse
 import re
 from pathlib import Path
+import sys
 from typing import Dict, List, Optional, Tuple
 
 import numpy as np
@@ -28,7 +29,10 @@ PADRAO_ARQUIVO_NICOLET_ABSORBANCIA = re.compile(
 # Expressão regular para identificar tecidos 100% monomateriais
 PADRAO_FIBRA_MONOMATERIAL = re.compile(r"^([a-zA-Z])100(?:[a-zA-Z]000)*$")
 
-DIRETORIO_RAIZ = Path(__file__).resolve().parent
+if getattr(sys, 'frozen', False):
+    DIRETORIO_RAIZ = Path(sys.executable).resolve().parent
+else:
+    DIRETORIO_RAIZ = Path(__file__).resolve().parent
 PASTA_DATAGRBS = DIRETORIO_RAIZ / "nir-sort" / "DataGrabs"
 ARQUIVO_SAIDA_PADRAO = DIRETORIO_RAIZ / "data" / "nir_benchtop_data.csv"
 

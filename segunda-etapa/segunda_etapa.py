@@ -1,4 +1,5 @@
 from pathlib import Path
+import sys
 from typing import Any, Dict, List, Tuple
 import matplotlib.pyplot as plt
 import numpy as np
@@ -9,7 +10,10 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import adjusted_rand_score
 from scipy.optimize import linear_sum_assignment
 
-DIRETORIO_RAIZ = Path(__file__).resolve().parent.parent
+if getattr(sys, 'frozen', False):
+    DIRETORIO_RAIZ = Path(sys.executable).resolve().parent
+else:
+    DIRETORIO_RAIZ = Path(__file__).resolve().parent.parent
 
 PASTA_DATA = DIRETORIO_RAIZ / "data"
 PASTA_ETAPA2 = DIRETORIO_RAIZ / "reports" / "etapa_2"

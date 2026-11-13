@@ -1,5 +1,7 @@
 import json
 from pathlib import Path
+import sys
+import sys
 from typing import Any, Dict, List, Tuple
 
 import numpy as np
@@ -8,10 +10,12 @@ from scipy.optimize import linear_sum_assignment
 from sklearn.cluster import KMeans
 from sklearn.metrics import adjusted_rand_score
 
-# Padrão de diretórios e caminhos utilizado no projeto
-DIRETORIO_RAIZ = Path(__file__).resolve().parent.parent
+if getattr(sys, 'frozen', False):
+    DIRETORIO_RAIZ = Path(sys.executable).resolve().parent
+else:
+    DIRETORIO_RAIZ = Path(__file__).resolve().parent.parent
 
-PASTA_TERCEIRA_ETAPA = Path(__file__).resolve().parent
+PASTA_TERCEIRA_ETAPA = DIRETORIO_RAIZ / "terceira-etapa"
 PASTA_DATA = DIRETORIO_RAIZ / "data"
 PASTA_ETAPA3 = DIRETORIO_RAIZ / "reports" / "etapa_3"
 

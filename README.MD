@@ -83,3 +83,34 @@ topicos-ia-seg/
 
 - **Linguagem & Bibliotecas:** Python 3, NumPy, Pandas, SciPy, Scikit-Learn, Matplotlib, Seaborn, OpenPyXL.
 - **Domínio de Aplicação:** Espectroscopia de Refletância Difusa no Infravermelho Próximo (NIR) para triagem automatizada e reciclagem têxtil circular.
+
+## 5. Execução pelo terminal
+
+Instale as dependências do projeto:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Inicie a interface interativa:
+
+```bash
+python executar_sistema.py
+```
+
+O menu permite executar o fluxo completo, na ordem pré-processamento,
+primeira etapa, segunda etapa, seleção Bayes e K-Means reduzido, ou executar
+uma etapa individual. As etapas usam os parâmetros e os arquivos de saída
+padrão já definidos no projeto.
+
+## 6. Geração do executável
+
+Com o ambiente virtual e as dependências instalados, gere o executável com:
+
+```bash
+python -m PyInstaller --clean executar_sistema.spec
+```
+
+O arquivo será gerado em `dist/executar_sistema.exe`. Mantenha as pastas
+`nir-sort/` e `data/` no mesmo diretório do executável, pois os dados de
+entrada e os relatórios são lidos e gravados externamente ao bundle.

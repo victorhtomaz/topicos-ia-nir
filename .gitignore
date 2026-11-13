@@ -1,0 +1,23 @@
+# Executáveis e pastas geradas pelo PyInstaller
+*.spec
+!executar_sistema.spec
+build/
+dist/
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Configurações de editores (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Arquivos temporários ou de sistema
+.DS_Store
+Thumbs.db
